@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <script defer src="/js/chat.js"></script>
+    <script src="/js/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>hola mundo</h1>
+    <input type="text" name="idUser" id="idUser" placeholder="escribe tu nombre" />
+    <ul id="ulMessage"></ul>
+    <div>
+      <input
+        type="text"
+        name="inputMessage"
+        id="inputMessage"
+        placeholder="Escribe tu mensaje"
+      />
+      <button id="buttonMessage" onclick="sendMessage()">Enviar</button>
+    </div>
+  </body>
+</html>

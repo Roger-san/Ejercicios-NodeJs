@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subida de archivos</title>
+  </head>
+  <body>
+    <h1>Patatas</h1>
+    <form action="/uploadFile" enctype="multipart/form-data" method="post">
+      <input
+        type="file"
+        name="upload"
+        multiple
+        accept="image/x-png, image/gif, image/jpeg"
+      />
+      <input type="submit" value="upload" />
+      <!--
+        multiple permite que se puedan subira a la ver mas de un archivo
+        accept permitira solo subir ese tipo de archivos
+      -->
+    </form>
+  </body>
+</html>

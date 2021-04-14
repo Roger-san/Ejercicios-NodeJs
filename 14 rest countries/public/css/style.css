@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+}
+h2 {
+  padding: 0px 10px;
+  display: inline-block;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}

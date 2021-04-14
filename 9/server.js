@@ -1,0 +1,5 @@
+const calculadora = require("./calculadora")
+console.log(calculadora.suma(2, 4))
+console.log(calculadora.resta(4, 4))
+console.log(calculadora.division(10, 4))
+console.log(calculadora.multiplicacion(4, 4))
